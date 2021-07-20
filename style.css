@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background: #0B0C10;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 100px;
+    border: 3px solid #45A29E;
+    border-radius: 10px;
+    height: 500px;
+    width: 400px;
+    padding: 20px;
+    background: rgb(20, 19, 19);
+}
+
+.display {
+    min-height: 100px;
+    width: 355px;
+    background-color: rgb(255, 255, 255);
+    text-align: right;
+    font-size: 30px;
+    border: 1px solid rgb(19, 18, 18);
+    margin-bottom: 20px;
+}
+
+.initialDisplay {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-right: 5px;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fifth-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 70px;
+    height: 55px;
+    margin-top: 10px;
+    background-color: #0a2b4d;
+    color: #ffffff;
+    font-size: 35px;
+    border-radius: 10px;
+    border: 2px solid #45A29E;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(167, 163, 163);
+}
+
+button:active {
+    background-color: rgb(97, 95, 95);
+}
+
+.functionBtn {
+    background-color: #01050e;
+}
+
+.operatorBtn {
+    color: #ffffff;
+}
+
+#zeroBtn {
+    width: 160px;
+}
